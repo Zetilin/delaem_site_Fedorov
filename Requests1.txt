@@ -2,7 +2,7 @@
 
 2. SELECT login FROM Client ORDER BY sign_up_date DESC LIMIT 1;
 
-3. SELECT DISTINCT(SUBSTR(birthday, 7, 11)) FROM Client;
+3. SELECT DISTINCT(SUBSTR(birthday, 1, 4)) FROM Client;
 
 4. SELECT COUNT(*) AS 'total_items' FROM product;
 
